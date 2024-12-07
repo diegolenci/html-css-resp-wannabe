@@ -134,3 +134,22 @@ img {
         width: 100%;
     }
  }
+
+
+ @media screen and (max-width: 480px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+ }
